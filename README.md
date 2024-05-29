@@ -17,18 +17,26 @@ This Docker image is based on Ubuntu 16.04 and includes the following packages:
 docker build -t devops-assignment .
 ```
 6. Run the Docker Container
-`$ docker run -it devops-assignment`
+```bash
+docker run -it devops-assignment
+```
 
 ## Verify the Installed Packages
 Inside the running container, you can verify that the packages are installed correctly by running the following commands:
 To check the installation of telnet:
-  `$telnet`
+  ```bash 
+  telnet
+```
 
 To check the installation of curl:
-  >curl --version
+  ```bash
+curl --version
+```
 
 To check the installation of ffmpeg :
-  >ffmpeg -version
+```bash
+ffmpeg -version
+```
 You should see the version information for the all packages.
 
 6.Exit the Container
