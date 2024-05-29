@@ -43,13 +43,18 @@ You should see the version information for the all packages.
 To exit the container, simply type exit and press Enter.
 
 7. To remove the Docker image from your system, run.
- >docker rmi -f devops-assignment
-
+ ```bash
+docker rmi -f devops-assignment
+```
 9. To remove any stopped containers, first list all containers to find the container ID or name.
- >docker ps -a 
+ ```bash
+docker ps -a
+``` 
 
 10. Then remove the container using.
->docker rm -f <container_id>
+```bash
+docker rm -f <container_id>
+```
 
 
 
