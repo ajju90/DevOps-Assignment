@@ -1,6 +1,6 @@
 # DevOps-Assignment
 ## Docker Image with Ubuntu 16.04 and Essential Packages
-#Q.1 Docker
+# Q.1 Docker
 This Docker image is based on Ubuntu 16.04 and includes the following packages:
 - telnet
 - curl
