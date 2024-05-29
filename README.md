@@ -39,7 +39,7 @@ ffmpeg -version
 ```
 You should see the version information for the all packages.
 
-6.Exit the Container
+6.Exit the Container:
 To exit the container, simply type exit and press Enter.
 
 7. To remove the Docker image from your system, run.
