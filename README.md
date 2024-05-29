@@ -59,11 +59,11 @@ docker rm -f <container_id>
 
 #  Q.2 Auditing Hardware
 
-1. **Download the Script**:
+1. **Download the Script**:\
    Save the script `hardware.sh` to your desire directory.
 
 2. **Make the Script Executable**:\
-Give the executable permission on hardware.sh file for use following command: 
+3. Give the executable permission on hardware.sh file for use following command: 
    ```bash
    chmod +x hardware.sh
    ```
