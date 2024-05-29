@@ -39,7 +39,7 @@ To exit the container, simply type exit and press Enter.
  >docker ps -a 
 
 10. Then remove the container using.
-#docker rm -f <container_id>
+>>docker rm -f <container_id>
 
 
 
