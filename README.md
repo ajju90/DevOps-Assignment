@@ -12,11 +12,11 @@ This Docker image is based on Ubuntu 16.04 and includes the following packages:
 1. Install docker on your ubuntu system.
 2. Follow these steps for install docker in your machine. Please refer official website of docker for installation [Docker's official website](https://docs.docker.com/engine/install/ubuntu/)
 3. Save the provided `Dockerfile` to a directory on your machine.
-4. Build the Docker image using the following command:
+4. Build the Docker file using the following command:
 ```bash
 docker build -t devops-assignment .
 ```
-6. Run the Docker Container
+6. Run the Docker image
 ```bash
 docker run -it devops-assignment
 ```
