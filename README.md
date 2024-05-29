@@ -20,23 +20,23 @@ docker run -it devops-assignment
 ## Verify the Installed Packages
 Inside the running container, you can verify that the packages are installed correctly by running the following commands:
 To check the installation of telnet:
-  #telnet
+  >telnet
 
 To check the installation of curl:
-  #curl --version
+  >curl --version
 
 To check the installation of ffmpeg :
-  #ffmpeg -version
+  >ffmpeg -version
 You should see the version information for the all packages.
 
 6.Exit the Container
 To exit the container, simply type exit and press Enter.
 
 7. To remove the Docker image from your system, run.
-#docker rmi -f devops-assignment
+ >docker rmi -f devops-assignment
 
 9. To remove any stopped containers, first list all containers to find the container ID or name.
-#docker ps -a 
+ >docker ps -a 
 
 10. Then remove the container using.
 #docker rm -f <container_id>
