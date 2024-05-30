@@ -98,7 +98,8 @@ Give the executable permission on disk-space.sh file for use following command:
 ```bash
 ls
 ```
-**A check the `deleted-files-30-05-2024.log` contain:**
+**A check the `deleted-files-30-05-2024.log` contain following command :**
+```bash
 cat <log file name>
 ```
 
