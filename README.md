@@ -103,7 +103,7 @@ cat <log file name>
 4.**Important Note**
 
 Suppose your script is not run then check the proper path /data/audios/folder This path and disk.sh script path should match.
-they are match then run your scipt is properly.
+they are match then run your scipt is properly run.
 
 
 
