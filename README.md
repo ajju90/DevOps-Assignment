@@ -74,8 +74,36 @@ Give the executable permission on hardware.sh file for use following command:
 ```
 
 
+# Q.3 Managing Disk Space
 
+**Overview**
+The disk-space.sh script helps manage disk space by deleting .wav audio files in the /data/audios/folder directory that are older than a specified time threshold. By default, files older than 40 hours are deleted. The script logs the details of each deletion in a log file named deleted-files-<date>-<month>-<year>.log
 
+1. **Download the Script**:\
+Save the script `disk-space.sh` to your desire directory.
+
+2. **Make the Script Executable**:\
+Give the executable permission on disk-space.sh file for use following command: 
+```bash
+ chmod +x hardware.sh
+ ```
+
+3. **Run the Script:**
+
+```bash
+./audit_hardware.sh
+```
+**Check the logs file in current directory using command:**
+
+```bash
+ls
+cat <log file name>
+```
+
+4.**Important Note**
+
+Suppose your script is not run then check the proper path /data/audios/folder This path and disk.sh script path should match.
+they are match then run your scipt is properly.
 
 
 
